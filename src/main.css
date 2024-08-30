@@ -1,0 +1,46 @@
+body {
+  margin: 30px;
+  padding: 0;
+  background: #000;
+}
+
+.active * {
+  pointer-events: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input {
+  height: 18px;
+}
+
+.link {
+  color: #eee;
+  margin-top: 10px;
+}
+
+.link:hover {
+  color: #aaa;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
